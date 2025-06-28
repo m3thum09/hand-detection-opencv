@@ -1,0 +1,40 @@
+# ========================
+# Python .gitignore File
+# ========================
+
+# Ignore Python virtual environment
+handenv/
+.Python
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# VSCode editor settings (optional)
+.vscode/
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+.coverage
+*.cover
+coverage.xml
+htmlcov/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
